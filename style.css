@@ -15,7 +15,7 @@ body {
 header {
   background-color: #7a291b;
   color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,8 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.2rem;
+  gap: 2rem;
+  margin-left: auto;
 }
 
 nav ul li a {
@@ -44,36 +45,60 @@ nav ul li a.active {
   color: #ffd700;
 }
 
-.hero {
-  text-align: center;
-  padding: 2rem;
+main {
+  padding: 3rem 2rem;
+  background-color: #fff;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.about h1 {
+  font-size: 3rem;
   color: #7a291b;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.hero img {
-  width: 90%;
-  max-width: 700px;
-  margin-top: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+.about p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
 footer {
-  background-color: #f8d7a7;
+  background-color: #7a291b;
+  color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  font-size: 1rem;
 }
 
 /* Responsive layout */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   nav ul {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .hero h1 {
@@ -82,5 +107,17 @@ footer {
 
   .hero img {
     width: 100%;
+  }
+
+  .about {
+    padding: 1.5rem;
+  }
+
+  .about h1 {
+    font-size: 2.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
   }
 }
