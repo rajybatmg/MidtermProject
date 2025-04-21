@@ -1,61 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kyochon 1991 Menu - Authentic Korean Fried Chicken">
   <title>Menu - Kyochon 1991</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
   <header>
     <div class="logo">
-      <img src="images/kyochonlogo.png" alt="Kyochon Clone Logo" />
+      <img src="images/kyochonlogo.png" alt="Kyochon 1991 Logo">
     </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html" class="active">Menu</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="menu">
-      <h1>Our Menu</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Item</th>
-            <th>Description</th>
-            <th>Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Original Fried Chicken</td>
-            <td>Classic golden crispy chicken with our signature seasoning.</td>
-            <td>₩15,000</td>
-          </tr>
-          <tr>
-            <td>Soy Garlic Chicken</td>
-            <td>Glazed in sweet, garlicky soy goodness.</td>
-            <td>₩17,000</td>
-          </tr>
-          <tr>
-            <td>Spicy Red Chicken</td>
-            <td>Turn up the heat with our spicy marinade!</td>
-            <td>₩18,000</td>
-          </tr>
-        </tbody>
-      </table>
+  <main id="main-content">
+    <!-- Menu Hero -->
+    <section class="menu-hero">
+      <div class="menu-hero-content">
+        <h1>Our Menu</h1>
+        <p>Discover our authentic Korean fried chicken and more</p>
+      </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+      <div class="section-title">
+        <h2>Signature Chicken</h2>
+        <p>Double-fried to perfection with our secret recipe</p>
+      </div>
+
+      <div class="menu-items-container">
+        <!-- Chicken Item 1 -->
+        <div class="menu-item-detail">
+          <div class="menu-item-image">
+            <img src="images/sg.avif" alt="Soy Garlic Chicken">
+          </div>
+          <div class="menu-item-info">
+            <h3>Soy Garlic Chicken</h3>
+            <p class="item-description">Our original recipe with savory garlic and sweet soy glaze. Double-fried for extra crispiness.</p>
+            <div class="price-size">
+              <div class="size-option">
+                <span class="size">Regular</span>
+                <span class="price">₩15,000</span>
+              </div>
+              <div class="size-option">
+                <span class="size">Large</span>
+                <span class="price">₩22,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chicken Item 2 -->
+        <div class="menu-item-detail">
+          <div class="menu-item-image">
+            <img src="images/rd.avif" alt="Red Pepper Chicken">
+          </div>
+          <div class="menu-item-info">
+            <h3>Red Pepper Chicken</h3>
+            <p class="item-description">Spicy Korean chili sauce with the perfect kick. Not for the faint-hearted!</p>
+            <div class="price-size">
+              <div class="size-option">
+                <span class="size">Regular</span>
+                <span class="price">₩16,000</span>
+              </div>
+              <div class="size-option">
+                <span class="size">Large</span>
+                <span class="price">₩24,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chicken Item 3 -->
+        <div class="menu-item-detail">
+          <div class="menu-item-image">
+            <img src="images/honeyy.avif" alt="Honey Chicken">
+          </div>
+          <div class="menu-item-info">
+            <h3>Honey Chicken</h3>
+            <p class="item-description">Sweet acacia honey glaze for those who prefer mild flavors. A customer favorite.</p>
+            <div class="price-size">
+              <div class="size-option">
+                <span class="size">Regular</span>
+                <span class="price">₩16,000</span>
+              </div>
+              <div class="size-option">
+                <span class="size">Large</span>
+                <span class="price">₩23,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combos Section -->
+      <div class="section-title">
+        <h2>Meal Combos</h2>
+        <p>Perfect combinations for any occasion</p>
+      </div>
+
+      <div class="menu-items-container">
+        <!-- Combo 1 -->
+        <div class="menu-item-detail">
+          <div class="menu-item-image">
+            <img src="images/combo1.jpg" alt="Family Combo">
+          </div>
+          <div class="menu-item-info">
+            <h3>Family Feast</h3>
+            <p class="item-description">Large Soy Garlic Chicken, Large Red Pepper Chicken, 4 sides, and 4 drinks. Feeds 4-5 people.</p>
+            <div class="price-size">
+              <div class="size-option">
+                <span class="price">₩55,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Combo 2 -->
+        <div class="menu-item-detail">
+          <div class="menu-item-image">
+            <img src="images/combo2.jpg" alt="Couple Combo">
+          </div>
+          <div class="menu-item-info">
+            <h3>Couple Set</h3>
+            <p class="item-description">Regular Soy Garlic Chicken, Regular Honey Chicken, 2 sides, and 2 drinks. Perfect for two.</p>
+            <div class="price-size">
+              <div class="size-option">
+                <span class="price">₩32,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sides Section -->
+      <div class="section-title">
+        <h2>Sides & Extras</h2>
+        <p>Complete your meal</p>
+      </div>
+
+      <div class="sides-grid">
+        <div class="side-item">
+          <h3>Kimchi Coleslaw</h3>
+          <p>₩3,500</p>
+        </div>
+        <div class="side-item">
+          <h3>Sweet Potato Fries</h3>
+          <p>₩4,500</p>
+        </div>
+        <div class="side-item">
+          <h3>Rice Ball</h3>
+          <p>₩3,000</p>
+        </div>
+        <div class="side-item">
+          <h3>Pickled Radish</h3>
+          <p>₩2,500</p>
+        </div>
+        <div class="side-item">
+          <h3>French Fries</h3>
+          <p>₩4,000</p>
+        </div>
+        <div class="side-item">
+          <h3>Cheese Corn</h3>
+          <p>₩5,000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="menu-cta">
+      <h2>Craving Our Chicken Now?</h2>
+      <a href="contact.html" class="btn">Find Nearest Location</a>
+      <a href="tel:+821012345678" class="btn btn-outline">Call to Order</a>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Kyochon Clone. All rights reserved.</p>
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3>Locations</h3>
+        <ul>
+          <li><a href="#">Seoul</a></li>
+          <li><a href="#">Busan</a></li>
+          <li><a href="#">New York</a></li>
+          <li><a href="#">Los Angeles</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Franchising</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Connect With Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; 2025 Kyochon 1991. All Rights Reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
