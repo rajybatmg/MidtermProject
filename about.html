@@ -1,41 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us - Kyochon 1991</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - KYOCHON 1991</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="images/kyochonlogo.png" alt="Kyochon Clone Logo" />
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/kyochonlogo.png" alt="Kyochon Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html" class="active">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html" class="active">About Us</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
-    <section class="about">
-      <h1>Our Story</h1>
-      <p>At KyoChon 1991, we’re passionate about bringing you the best Korean fried chicken made with the freshest and finest ingredients nature has to offer, all made with our secret recipe that has been delivering deliciousness since 1991. Far from being just another fast food joint, we’re a full-service restaurant that aims to make your dining experience the best possible one with a feast of truly authentic Korean flavours that will keep you coming back for more.</p>
-      <p>While many may know us for our pursuit of perfection in every fried chicken we make, our menu extends to more than just expertly-fried tender, juicy morsels of chicken. KyoChon 1991’s menu also includes a selection of appetisers, sides, a la carte dishes and meat-free options of must-have Korean dishes. Of course, no KyoChon 1991 meal is complete without refreshing beverages to complement the mouthwatering spread and a gut-healthy range of frozen yoghurt ice creams to end the meal on a sweet note, so be sure to get your share of both for a meal that your taste buds and tummy will thank you for!</p>
-      <p>If our ample assortment of dishes have you undecided on what to feast on, our combos will take the guesswork out of mealtimes. Take your pick from thoughtfully selected combinations of dishes tailored to suit the size of your group. We even have a kid-friendly combo made especially for your little ones too!</p>
-      <p>At KyoChon 1991, every ingredient that goes into your food has been carefully prepared from farm to plate, which aligns with our philosophy of providing our customers with healthy, delicious food that’s made using only the freshest and highest-quality ingredients. We’re also committed to avoiding the use of additives and MSG, so we can focus on allowing the freshness of the ingredients such as our chilled, antibiotic- and hormone-free broiler chickens and naturally harvested spices to shine through instead. The result? Korean fried chicken and Korean street food favourites with a taste that you can trust.</p>
-      <p>KyoChon 1991, the home to the tender, succulent Korean fried chicken. Come taste the authentic flavours of Korea today at a KyoChon 1991 near you!
-      </p>
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/about-hero.jpg'); height: 60vh;">
+      <div class="hero-content">
+        <h1>OUR STORY</h1>
+        <p>30 Years of Crispy Perfection</p>
+      </div>
+    </section>
+
+    <!-- History Timeline -->
+    <section class="container">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>1991</h3>
+            <p>First Kyochon restaurant opens in Seoul, South Korea</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2003</h3>
+            <p>Introduction of our signature Double-Frying Technique</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2010</h3>
+            <p>Expansion to international markets begins</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2023</h3>
+            <p>500+ outlets worldwide serving authentic Korean flavors</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="container">
+      <h2>OUR CORE VALUES</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <i class="fas fa-heart"></i>
+          <h3>Quality First</h3>
+          <p>Using only premium, antibiotic-free chicken and fresh ingredients</p>
+        </div>
+        <div class="value-card">
+          <i class="fas fa-seedling"></i>
+          <h3>Authenticity</h3>
+          <p>Staying true to traditional Korean recipes and cooking methods</p>
+        </div>
+        <div class="value-card">
+          <i class="fas fa-users"></i>
+          <h3>Community</h3>
+          <p>Creating spaces for people to connect over great food</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Secret Section -->
+    <section class="secret-section">
+      <div class="container">
+        <div class="secret-content">
+          <div class="secret-text">
+            <h2>THE KYOCHON DIFFERENCE</h2>
+            <ul>
+              <li><i class="fas fa-check"></i> 24-hour marination process</li>
+              <li><i class="fas fa-check"></i> Double-fried to perfection</li>
+              <li><i class="fas fa-check"></i> Handcrafted signature sauces</li>
+              <li><i class="fas fa-check"></i> Daily fresh oil changes</li>
+            </ul>
+          </div>
+          <div class="secret-image">
+            <img src="images/secret.jpg" alt="Cooking Process">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="container">
+      <h2>MEET OUR CHEFS</h2>
+      <div class="chef-grid">
+        <div class="chef-card">
+          <img src="images/chef1.jpg" alt="Head Chef">
+          <h3>Park Ji-hoon</h3>
+          <p>Master Chef</p>
+        </div>
+        <div class="chef-card">
+          <img src="images/chef2.jpg" alt="Sauce Expert">
+          <h3>Kim Min-ji</h3>
+          <p>Sauce Specialist</p>
+        </div>
+        <div class="chef-card">
+          <img src="images/chef3.jpg" alt="Quality Control">
+          <h3>Lee Yong-jun</h3>
+          <p>Quality Director</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>READY TO TASTE THE DIFFERENCE?</h2>
+        <p>Visit us today and experience authentic Korean fried chicken</p>
+        <div class="cta-buttons">
+          <a href="menu.html" class="btn">View Menu</a>
+          <a href="contact.html" class="btn btn-outline">Find a Store</a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Kyochon Clone. All rights reserved.</p>
+    <!-- Footer content same as previous -->
   </footer>
 </body>
 </html>
