@@ -185,7 +185,7 @@ p {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* Gallery styles */
+/* CSS for Gallery styles */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -252,7 +252,7 @@ p {
   color: var(--primary-color);
 }
 
-/* Contact form styles */
+/* Contact form css styles */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -353,15 +353,6 @@ footer {
   background-color: var(--primary-color);
 }
 
-.copyright {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #444;
-  color: #999;
-  font-size: 0.9rem;
-}
-
 /* Responsive styles */
 @media (max-width: 992px) {
   .hero h1 {
@@ -408,7 +399,7 @@ footer {
 @media (max-width: 576px) {
   .hero {
     height: 50vh;
-  }
+  } 
 
   .hero h1 {
     font-size: 1.8rem;
@@ -422,7 +413,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-/* About Page Specific Styles */
+/* About Page CSS Styles */
 .timeline {
   position: relative;
   max-width: 900px;
@@ -590,34 +581,4 @@ footer {
 .btn-outline:hover {
   background-color: #fff;
   color: var(--primary-color);
-}
-
-@media (max-width: 768px) {
-  .timeline::after {
-    left: 2rem;
-  }
-
-  .timeline-item {
-    width: 100%;
-    padding-left: 5rem;
-    padding-right: 0;
-  }
-
-  .timeline-item:nth-child(odd),
-  .timeline-item:nth-child(even) {
-    left: 0;
-    text-align: left;
-  }
-
-  .timeline-item::after {
-    left: 1.5rem;
-  }
-
-  .secret-content {
-    grid-template-columns: 1fr;
-  }
-
-  .cta-buttons {
-    flex-direction: column;
-  }
 }
