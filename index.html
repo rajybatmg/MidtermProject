@@ -3,124 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kyochon 1991 - Authentic Korean Fried Chicken since 1991">
-  <title>Kyochon 1991 - Authentic Korean Fried Chicken</title>
+  <title>KYOCHON - Korean Fried Chicken</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  
   <header>
-    <div class="logo">
-      <img src="images/kyochonlogo.png" alt="Kyochon 1991 Logo">
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/kyochonlogo.png" alt="Kyochon Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main id="main-content">
+  <main>
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Authentic Korean Fried Chicken</h1>
-        <p>Since 1991, we've been perfecting the art of double-fried Korean chicken with our signature sauces and seasonings.</p>
-        <a href="menu.html" class="btn">View Menu</a>
+        <h1>KOREAN FRIED CHICKEN</h1>
+        <p>Authentic Korean flavors with our signature double-fried technique</p>
+        <a href="menu.html" class="btn">Order Now</a>
       </div>
     </section>
 
-    <!-- Signature Menu -->
-    <section class="menu-section">
-      <div class="section-title">
-        <h2>Our Signature Flavors</h2>
-      </div>
-      
-      <div class="menu-grid">
-        <div class="menu-item">
-          <img src="images/soygarlic.avif" alt="Soy Garlic Chicken">
-          <div class="menu-item-content">
-            <h3>Soy Garlic</h3>
-            <p>Our original recipe with savory garlic and sweet soy glaze</p>
-          </div>
+    <!-- Signature Flavors -->
+    <section class="container">
+      <h2>OUR SIGNATURE FLAVORS</h2>
+      <div class="gallery-grid">
+        <div>
+          <img src="images/soy-garlic.jpg" alt="Soy Garlic Chicken">
+          <p>SOY GARLIC</p>
         </div>
-        
-        <div class="menu-item">
-          <img src="images/redpepper.avif" alt="Red Pepper Chicken">
-          <div class="menu-item-content">
-            <h3>Red Pepper</h3>
-            <p>Spicy Korean chili sauce with the perfect kick</p>
-          </div>
+        <div>
+          <img src="images/red-pepper.jpg" alt="Red Pepper Chicken">
+          <p>RED PEPPER</p>
         </div>
-        
-        <div class="menu-item">
-          <img src="images/honey.avif" alt="Honey Chicken">
-          <div class="menu-item-content">
-            <h3>Honey</h3>
-            <p>Sweet acacia honey glaze for those who prefer mild flavors</p>
-          </div>
+        <div>
+          <img src="images/honey.jpg" alt="Honey Chicken">
+          <p>HONEY</p>
         </div>
       </div>
-    </section>
-
-    <!-- Promo Banner -->
-    <section class="promo-banner">
-      <h2>Try Our New Limited Edition Flavor!</h2>
-      <p>Available for a limited time only. Visit us today to experience this exclusive taste.</p>
-      <a href="contact.html" class="btn">Find Locations</a>
     </section>
 
     <!-- About Section -->
-    <section class="about-section">
-      <div class="section-title">
-        <h2>Our Story</h2>
-      </div>
-      
-      <div class="about-content">
-        <p>Founded in 1991 in Seoul, South Korea, Kyochon has become synonymous with premium Korean fried chicken. Our commitment to quality ingredients and traditional cooking methods has made us a global favorite.</p>
-        <a href="about.html" class="btn">Learn More</a>
+    <section class="container">
+      <h2>OUR STORY</h2>
+      <p>Since 1991, Kyochon has been serving authentic Korean fried chicken made with the freshest ingredients and our secret recipe. Our double-frying technique ensures the perfect crispiness while keeping the chicken juicy inside.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="container">
+      <div style="background-color: #f5f5f5; padding: 2rem; text-align: center; border-radius: 8px;">
+        <h2>SPECIAL PROMOTION</h2>
+        <p>Enjoy 20% off on your first order when you sign up for our newsletter!</p>
+        <form style="max-width: 500px; margin: 0 auto; display: flex;">
+          <input type="email" placeholder="Your email address" style="flex: 1; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px 0 0 4px;">
+          <button type="submit" class="btn" style="border-radius: 0 4px 4px 0;">Subscribe</button>
+        </form>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <div class="footer-grid">
-      <div class="footer-column">
-        <h3>Locations</h3>
-        <ul>
-          <li><a href="#">Seoul</a></li>
-          <li><a href="#">Busan</a></li>
-          <li><a href="#">New York</a></li>
-          <li><a href="#">Los Angeles</a></li>
-        </ul>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="images/kyochonlogo-white.png" alt="Kyochon Logo">
+        <p>Authentic Korean Fried Chicken since 1991</p>
       </div>
-      
-      <div class="footer-column">
-        <h3>Company</h3>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
         <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Franchising</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      
-      <div class="footer-column">
-        <h3>Support</h3>
+      <div class="footer-links">
+        <h3>Information</h3>
         <ul>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
+          <li><a href="franchising.html">Franchising</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
         </ul>
       </div>
-      
+      <div class="footer-links">
+        <h3>Contact Us</h3>
+        <p>123 Chicken Street<br>Seoul, South Korea</p>
+        <p>Phone: +82-10-1234-5678</p>
+        <p>Email: info@kyochonclone.com</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Kyochon Clone. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
