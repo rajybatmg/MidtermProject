@@ -269,9 +269,9 @@ nav ul li a.active {
 
 .menu-item-image img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
-  transition: transform 0.3s;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .menu-item-image:hover img {
